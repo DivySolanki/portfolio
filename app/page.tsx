@@ -288,7 +288,7 @@ export default function Home() {
                 title="B.E. in Computer Engineering"
                 company="University of Mumbai"
                 date="June 2020 - July 2024"
-                description={"• Grade: First Class Distinction\n• Awards: All India Smart Hackathon Winners\n• ECAs: College Annual Festival Coordinator, IEEE Club Member\n• Modules included: Database Systems, Data Structures, Operating Systems, Analysis of Algorithm, Cryptography. "}
+                description={"• Grade: First Class Distinction\n• Awards: All India Smart Hackathon Winners\n• ECAs: College Annual Festival Coordinator, IEEE Club Member\n• Modules include: Database Systems, Data Structures, Operating Systems, Analysis of Algorithm, Cryptography. "}
                 skills={["Programming", "Data Structures", "Mathematics"]}
                 delay={0.1}
               />
