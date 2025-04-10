@@ -170,8 +170,7 @@ export default function Home() {
               Projects
             </h2>
             <p className="max-w-[700px] text-muted-foreground md:text-xl">
-              A showcase of my work in artificial intelligence and machine
-              learning
+              A showcase of my work in AI, ML and Web Development
             </p>
           </motion.div>
 
@@ -248,7 +247,7 @@ export default function Home() {
               Experience
             </h2>
             <p className="max-w-[700px] text-muted-foreground md:text-xl">
-              My professional journey in the field of artificial intelligence
+              My professional journey in the field of computer science
             </p>
           </motion.div>
 
@@ -263,7 +262,15 @@ export default function Home() {
                 company="AVP Robotics"
                 date="June 2023 - May 2024"
                 description="As a Software Developer at AVP Robotics, I spearheaded the development of Rapidquote, an innovative solution that automated the 3D printing STL object quotation process, achieving a 99% efficiency gain and reducing quotation time significantly. I took ownership of the back-end system architecture, ensuring high performance, and collaborated effectively with a team of six and stakeholders. My responsibilities included crafting comprehensive data schemas, developing 38 intuitive APIs covering various functionalities, and meticulously documenting the entire API suite in Postman. I also prioritized system security and reliability, integrated three.js for enhanced 3D model interaction, and successfully led the project through its integration phase."
-                skills={["React", "NodeJS", "API", "Postman", "MongoDB", "Three.js", "Schema Design"]}
+                skills={[
+                  "React",
+                  "NodeJS",
+                  "API",
+                  "Postman",
+                  "MongoDB",
+                  "Three.js",
+                  "Schema Design",
+                ]}
                 delay={0}
               />
               <ExperienceCard
@@ -280,7 +287,9 @@ export default function Home() {
                 title="M.Sc. in Advance Computer Science: Artificial Intelligence"
                 company="The University of Manchester"
                 date="September 2024 - Present"
-                description={"• Grade: Distinction (predicted)\n• Awards: Bicentenary Global Futures Scholar\n• ECAs: Student Ambassador, UoM DS Club Member\n• Modules include: Machine Learning, Text Mining, Computer Vision and Cognitive Robotics, Modelling Data"}
+                description={
+                  "• Grade: Distinction (predicted)\n• Awards: Bicentenary Global Futures Scholar\n• ECAs: Student Ambassador, UoM DS Club Member\n• Modules include: Machine Learning, Text Mining, Computer Vision and Cognitive Robotics, Modelling Data"
+                }
                 skills={["Computer Vision", "Algorithms", "Mathematics"]}
                 delay={0}
               />
@@ -288,7 +297,9 @@ export default function Home() {
                 title="B.E. in Computer Engineering"
                 company="University of Mumbai"
                 date="June 2020 - July 2024"
-                description={"• Grade: First Class Distinction\n• Awards: All India Smart Hackathon Winners\n• ECAs: College Annual Festival Coordinator, IEEE Club Member\n• Modules include: Database Systems, Data Structures, Operating Systems, Analysis of Algorithm, Cryptography"}
+                description={
+                  "• Grade: First Class Distinction\n• Awards: All India Smart Hackathon Winners\n• ECAs: College Annual Festival Coordinator, IEEE Club Member\n• Modules include: Database Systems, Data Structures, Operating Systems, Analysis of Algorithm, Cryptography"
+                }
                 skills={["Programming", "Data Structures", "Mathematics"]}
                 delay={0.1}
               />
