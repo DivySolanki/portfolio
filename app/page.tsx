@@ -280,7 +280,7 @@ export default function Home() {
                 title="M.Sc. in Advance Computer Science: Artificial Intelligence"
                 company="The University of Manchester"
                 date="September 2024 - Present"
-                description={"• Grade: Distinction (predicted)\n• Awards: Bicentenary Global Futures Scholar\n• ECAs: Student Ambassador, UoM DS Club Member\n• Modules include: Machine Learning, Text Mining, Computer Vision and Cognitive Robotics, Modelling Data."}
+                description={"• Grade: Distinction (predicted)\n• Awards: Bicentenary Global Futures Scholar\n• ECAs: Student Ambassador, UoM DS Club Member\n• Modules include: Machine Learning, Text Mining, Computer Vision and Cognitive Robotics, Modelling Data"}
                 skills={["Computer Vision", "Algorithms", "Mathematics"]}
                 delay={0}
               />
@@ -288,7 +288,7 @@ export default function Home() {
                 title="B.E. in Computer Engineering"
                 company="University of Mumbai"
                 date="June 2020 - July 2024"
-                description={"• Grade: First Class Distinction\n• Awards: All India Smart Hackathon Winners\n• ECAs: College Annual Festival Coordinator, IEEE Club Member\n• Modules include: Database Systems, Data Structures, Operating Systems, Analysis of Algorithm, Cryptography. "}
+                description={"• Grade: First Class Distinction\n• Awards: All India Smart Hackathon Winners\n• ECAs: College Annual Festival Coordinator, IEEE Club Member\n• Modules include: Database Systems, Data Structures, Operating Systems, Analysis of Algorithm, Cryptography"}
                 skills={["Programming", "Data Structures", "Mathematics"]}
                 delay={0.1}
               />
