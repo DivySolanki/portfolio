@@ -122,7 +122,7 @@ export function ProjectDialog({ open, onOpenChange, project }: ProjectDialogProp
         {/* Scroll down indicator */}
         {canScroll && !isAtBottom && (
           <div
-            className="absolute bottom-4 left-1/2 transform -translate-x-1/2 cursor-pointer animate-bounce"
+            className="absolute bottom-4 right-1/2 transform -translate-x-1/2 cursor-pointer animate-bounce"
             onClick={scrollDown}
           >
             <div className="bg-background/80 backdrop-blur-sm rounded-full p-2 shadow-sm">
