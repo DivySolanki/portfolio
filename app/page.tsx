@@ -27,7 +27,7 @@ import { Model3D } from "@/components/model-3d";
 const handleDownload = () => {
   const link = document.createElement("a");
   link.href =
-    "https://www.dropbox.com/scl/fi/9jhjc5evbu2iwwcpnrsm2/Divy-Solanki-CV.pdf?rlkey=itn8ee2ww28op7i6dcqkbwms5&st=nq2srx0l&raw=1";
+    "https://www.dropbox.com/scl/fi/1ff4gsvnbosfanai5unll/Divy-Solanki-CV.pdf?rlkey=z0e0w9dfdhkmsrryd46utgoiu&st=wnraultq&raw=1";
   link.download = "Divy_Solanki_CV.pdf";
   document.body.appendChild(link);
   link.click();
