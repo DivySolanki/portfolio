@@ -102,15 +102,7 @@ export default function Home() {
                     View Projects
                   </a>
                 </Button>
-                <Button variant="outline" onClick={handleDownload}>
-                  <Download className="mr-2 h-4 w-4" />
-                  Download CV
-                </Button>
-              </div>
-
-              {/* Bottom button centered to form inverted triangle */}
-              <div className="mt-2">
-                <Button variant="secondary" asChild>
+                <Button variant="outline" asChild>
                   <a
                     href="#contact"
                     onClick={(e) => {
@@ -258,6 +250,14 @@ export default function Home() {
             </TabsList>
             <TabsContent value="work" className="space-y-6">
               <ExperienceCard
+                title="AI/ML Intern"
+                company="IntuigenceAI"
+                date="Nov 2025 - Present"
+                description="Extended the vLLM deployment framework at the C++ level to support sparse-expert architectures, successfully optimizing memory usage to fit the base model plus specialized LoRA adapters on a single H100 GPU. Spearheaded the organization’s first in-house deployment of the GPT-OSS-120B model to Azure ML, utilizing quantization to ensure scalable inference. Furthermore, architected the complete training pipeline for the AICE project involving data collection, sanitation, and LoRA configuration, while simultaneously engineering dynamic ‘@mention’ functionality to route user queries to specific models like PAM and AICE."
+                skills={["vLLM", "C++", "Azure ML", "LoRA", "Model Deployment"]}
+                delay={0}
+              />
+              <ExperienceCard
                 title="Software Developer"
                 company="AVP Robotics"
                 date="June 2023 - May 2024"
@@ -271,7 +271,7 @@ export default function Home() {
                   "Three.js",
                   "Schema Design",
                 ]}
-                delay={0}
+                delay={0.1}
               />
               <ExperienceCard
                 title="RasberryPi Intern"
@@ -279,7 +279,7 @@ export default function Home() {
                 date="July 2021 - July 2021"
                 description="During my internship at Kaizen Futuretech, I gained hands-on experience developing Internet of Things (IoT) solutions utilizing Raspberry Pi and Python. This role allowed me to apply my technical skills in a practical setting, contributing to the creation and implementation of innovative IoT projects."
                 skills={["Python", "NLP", "Raspberry Pi", "IoT"]}
-                delay={0.1}
+                delay={0.2}
               />
             </TabsContent>
             <TabsContent value="education" className="space-y-6">
