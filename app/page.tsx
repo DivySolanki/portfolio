@@ -27,7 +27,7 @@ import { Model3D } from "@/components/model-3d";
 const handleDownload = () => {
   const link = document.createElement("a");
   link.href =
-    "https://www.dropbox.com/scl/fi/9jhjc5evbu2iwwcpnrsm2/Divy-Solanki-CV.pdf?rlkey=itn8ee2ww28op7i6dcqkbwms5&st=nq2srx0l&raw=1";
+    "https://www.dropbox.com/scl/fi/dynxks2jm0t2eattbgupg/Divy-Solanki-CV.pdf?rlkey=a45o0ee4b50sa56elm6vspmph&st=554fzpz7&raw=1";
   link.download = "Divy_Solanki_CV.pdf";
   document.body.appendChild(link);
   link.click();
@@ -258,6 +258,25 @@ export default function Home() {
             </TabsList>
             <TabsContent value="work" className="space-y-6">
               <ExperienceCard
+                title="AI/ML Inter"
+                company="IntuigenceAI"
+                date="Nov 2025 - Present"
+                description="As the Lead of the TimeSeries Project at IntuigenceAI, I spearheaded the development of advanced multi-modal analytics systems for the plant processing industry. I architected a HybridRAG pipeline leveraging CRAG and TimeMoe to synthesize real-time telemetry with external documentation, delivering critical operational insights. Additionally, I introduced GraphRAG to query Piping and Instrumentation Diagrams (PnID) for automated root-cause analysis. Beyond technical architecture, I managed a team of four engineers using Linear and Agile methodologies to ensure rapid and effective product delivery."
+                skills={[
+                  "Python",
+                  "HybridRAG",
+                  "GraphRAG",
+                  "CRAG",
+                  "TimeMoe",
+                  "Time Series Forecasting",
+                  "Linear",
+                  "Agile Leadership",
+                  "vLLM",
+                  "C++",
+                ]}
+                delay={0}
+              />
+              <ExperienceCard
                 title="Software Developer"
                 company="AVP Robotics"
                 date="June 2023 - May 2024"
@@ -271,7 +290,7 @@ export default function Home() {
                   "Three.js",
                   "Schema Design",
                 ]}
-                delay={0}
+                delay={0.1}
               />
               <ExperienceCard
                 title="RasberryPi Intern"
@@ -279,14 +298,14 @@ export default function Home() {
                 date="July 2021 - July 2021"
                 description="During my internship at Kaizen Futuretech, I gained hands-on experience developing Internet of Things (IoT) solutions utilizing Raspberry Pi and Python. This role allowed me to apply my technical skills in a practical setting, contributing to the creation and implementation of innovative IoT projects."
                 skills={["Python", "NLP", "Raspberry Pi", "IoT"]}
-                delay={0.1}
+                delay={0.2}
               />
             </TabsContent>
             <TabsContent value="education" className="space-y-6">
               <ExperienceCard
                 title="M.Sc. in Advance Computer Science: Artificial Intelligence"
                 company="The University of Manchester"
-                date="September 2024 - Present"
+                date="September 2024 - September 2025"
                 description={
                   "• Grade: Distinction (predicted)\n• Awards: Bicentenary Global Futures Scholar\n• ECAs: Student Ambassador, UoM DS Club Member\n• Modules include: Machine Learning, Text Mining, Computer Vision and Cognitive Robotics, Modelling Data"
                 }
