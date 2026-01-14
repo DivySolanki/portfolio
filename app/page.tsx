@@ -102,15 +102,7 @@ export default function Home() {
                     View Projects
                   </a>
                 </Button>
-                <Button variant="outline" onClick={handleDownload}>
-                  <Download className="mr-2 h-4 w-4" />
-                  Download CV
-                </Button>
-              </div>
-
-              {/* Bottom button centered to form inverted triangle */}
-              <div className="mt-2">
-                <Button variant="secondary" asChild>
+                <Button variant="outline" asChild>
                   <a
                     href="#contact"
                     onClick={(e) => {
