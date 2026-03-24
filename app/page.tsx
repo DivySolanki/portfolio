@@ -293,7 +293,7 @@ export default function Home() {
               <ExperienceCard
                 title="M.Sc. in Advance Computer Science: Artificial Intelligence"
                 company="The University of Manchester"
-                date="September 2024 - Present"
+                date="September 2024 - September 2025"
                 description={
                   "• Grade: Distinction (predicted)\n• Awards: Bicentenary Global Futures Scholar\n• ECAs: Student Ambassador, UoM DS Club Member\n• Modules include: Machine Learning, Text Mining, Computer Vision and Cognitive Robotics, Modelling Data"
                 }
