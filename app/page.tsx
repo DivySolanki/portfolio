@@ -26,8 +26,7 @@ import { Model3D } from "@/components/model-3d";
 
 const handleDownload = () => {
   const link = document.createElement("a");
-  link.href =
-    "https://www.dropbox.com/scl/fi/1ff4gsvnbosfanai5unll/Divy-Solanki-CV.pdf?rlkey=z0e0w9dfdhkmsrryd46utgoiu&st=wnraultq&raw=1";
+  link.href = "https://www.dropbox.com/scl/fi/p2elu7dv4m8atxiwjvf8o/Divy-Solanki-CV.pdf?rlkey=8jz1jy10rrwaownc709l85thw&st=y89bx4n9&raw=1";
   link.download = "Divy_Solanki_CV.pdf";
   document.body.appendChild(link);
   link.click();
@@ -249,13 +248,21 @@ export default function Home() {
               <TabsTrigger value="education">Education</TabsTrigger>
             </TabsList>
             <TabsContent value="work" className="space-y-6">
+            <ExperienceCard
+  title="ML/AI Software Engineer" 
+  company="IntuigenceAI"
+  date="Feb 2026 - Present"
+  description="Drove technical strategy and execution across three dedicated engineering pods (RAG, AI, and TimeSeries), architecting scalable ML solutions for complex operational forecasting and data retrieval."
+  skills={["vLLM", "C++", "Azure ML", "LoRA", "Model Deployment", "RAG"]}
+  delay={0}
+/>
               <ExperienceCard
-                title="AI/ML Intern"
+                title="ML/AI Engineering Intern"
                 company="IntuigenceAI"
-                date="Nov 2025 - Present"
+                date="Nov 2025 - Feb 2026"
                 description="Extended the vLLM deployment framework at the C++ level to support sparse-expert architectures, successfully optimizing memory usage to fit the base model plus specialized LoRA adapters on a single H100 GPU. Spearheaded the organization’s first in-house deployment of the GPT-OSS-120B model to Azure ML, utilizing quantization to ensure scalable inference. Furthermore, architected the complete training pipeline for the AICE project involving data collection, sanitation, and LoRA configuration, while simultaneously engineering dynamic ‘@mention’ functionality to route user queries to specific models like PAM and AICE."
                 skills={["vLLM", "C++", "Azure ML", "LoRA", "Model Deployment"]}
-                delay={0}
+                delay={0.1}
               />
               <ExperienceCard
                 title="Software Developer"
@@ -271,7 +278,7 @@ export default function Home() {
                   "Three.js",
                   "Schema Design",
                 ]}
-                delay={0.1}
+                delay={0.2}
               />
               <ExperienceCard
                 title="RasberryPi Intern"
@@ -279,7 +286,7 @@ export default function Home() {
                 date="July 2021 - July 2021"
                 description="During my internship at Kaizen Futuretech, I gained hands-on experience developing Internet of Things (IoT) solutions utilizing Raspberry Pi and Python. This role allowed me to apply my technical skills in a practical setting, contributing to the creation and implementation of innovative IoT projects."
                 skills={["Python", "NLP", "Raspberry Pi", "IoT"]}
-                delay={0.2}
+                delay={0.3}
               />
             </TabsContent>
             <TabsContent value="education" className="space-y-6">
