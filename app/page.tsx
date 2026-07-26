@@ -252,7 +252,7 @@ export default function Home() {
               <ExperienceCard
                 title="ML/AI Software Engineer"
                 company="IntuigenceAI"
-                date="Nov 2025 - Present"
+                date="Nov 2025 - Jul 2026"
                 description="Drove technical strategy and execution across three dedicated engineering pods (RAG, AI, and TimeSeries), architecting scalable ML solutions for complex operational forecasting and data retrieval. Extended the vLLM deployment framework at the C++ level to support sparse-expert architectures, successfully optimizing memory usage to fit the base model plus specialized LoRA adapters on a single H100 GPU. Spearheaded the organization’s first in-house deployment of the GPT-OSS-120B model to Azure ML, utilizing quantization to ensure scalable inference. Furthermore, architected the complete training pipeline for the AICE project involving data collection, sanitation, and LoRA configuration, while simultaneously engineering dynamic ‘@mention’ functionality to route user queries to specific models like PAM and AICE."
                 skills={[
                   "vLLM",
